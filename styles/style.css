@@ -1,0 +1,59 @@
+*{
+    font-family: 'Edu SA Beginner', Arial;
+}
+
+body{
+    background-color: #eeeeee;
+}
+
+.par{
+    padding: 15px;
+    text-align: center;
+    color:rgb(5, 98, 173) ;
+}
+
+.simple-todo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 25px;
+    margin: 12px;
+    background-image: linear-gradient(cyan, black);
+}
+
+.tasks-wrapper{
+    font-size: 20px;
+}
+
+#todo-input{
+    width: 290px;
+    height: 34px;
+    font-size: 20px;
+    border: 1px solid grey;
+    background-color: rgb(255, 255, 255);
+    box-shadow: gray 1px 1px 3px 1px inset ;
+    padding-left: 8px;
+    margin-left: 40px;
+}
+
+.butt{
+    height: 37.5px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(5, 98, 173);
+    font-size: 20px;
+    text-align: center;
+    color: wheat ;
+    width: 45px;
+}
+
+li{
+    border-bottom: 2px solid rgb(195, 195, 195);
+    margin: 12px 0;
+    width: 350px;
+    font-size: 24px;
+    color: antiquewhite;
+}
+
+
